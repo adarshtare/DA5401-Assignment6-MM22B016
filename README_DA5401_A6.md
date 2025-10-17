@@ -9,6 +9,11 @@ This repository contains the complete workflow for **DA5401 Assignment 6**, focu
 4. Provide a short analysis + recommendation on which strategy is best and why.
 
 ---
+## 📂 Folder Structure  
+
+├── DA5401_Assignment6_MM22B016.ipynb  # Main Jupyter Notebook  
+├── README.md                          # Documentation file  
+└── UCI_Credit_Card.csv                # Dataset
 
 ## 📂 Dataset
 - **Source:** UCI Credit Card Default Clients (30,000 × 25).
@@ -81,16 +86,6 @@ Randomly blank ≈7% values in `AGE`, `BILL_AMT1`, `PAY_AMT1`.
 
 > **One‑line takeaway:** *Keep the data, impute a single column with a simple, explainable model under MAR → stable metrics and better generalization.*
 
----
-
-## ▶️ How to Run (Colab)
-
-1. Upload `UCI_Credit_Card.csv` to the Colab Files pane.  
-2. Run the notebook cells in order:
-   - **Part A**: MAR injection → Datasets A/B/C/D
-   - **Part B**: Train/evaluate classifiers
-   - **Part C**: Summarize results and discussion
-3. (Optional) Change the chosen imputation column or the non‑linear model.
 
 ---
 
@@ -111,6 +106,5 @@ Randomly blank ≈7% values in `AGE`, `BILL_AMT1`, `PAY_AMT1`.
 
 ---
 
-## 🙏 Acknowledgments
-- UCI Machine Learning Repository — *Default of Credit Card Clients Data Set*.
-- Course staff for the clarification regarding B & C single‑column regression imputation.
+*Name:* Anan Madhav T V  
+*Roll Number:* MM22B013  
